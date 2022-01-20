@@ -1,0 +1,15 @@
+query TestpostQuery {
+  Post(id: "61beded87e81fb2da2944914") {
+    media_url
+    media_thumbnail
+    challenge {
+      hashtag
+    }
+    creator {
+      avatar
+      username
+    }
+  }
+}
+
+
